@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/appointment.css">
+</head>
+<body>
+
+
+           <!--==Navigation================================-->
+        <nav class="bottom-navbar">
+            <a href="../index.html" class="nav-item">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <a href="./map.html" class="nav-item">
+                <i class="fas fa-map-marker-alt"></i> Map
+            </a>
+            <a href="#appointment.html" class="nav-item">
+                <i class="fas fa-calendar-check"></i> Book
+            </a>
+
+            <a href="./emergency.html" class="nav-item">
+                <i class="fa-solid fa-land-mine-on"></i>Urgent
+            </a>
+            <a href="./profile.html" class="nav-item">
+                <i class="fas fa-user"></i> Profile
+            </a>
+        </nav>
+
+
+
+    <div class="app-container">
+        <h1>Book Appointment</h1>
+        <form id="booking-form">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            <label for="provider">Provider:</label>
+            <select id="provider" name="provider">
+            </select>
+            <button type="submit">Book Appointment</button>
+        </form>
+    </div>
+
+    <script src="../Script/appointment.js"></script>
+</body>
+</html>
+
+
